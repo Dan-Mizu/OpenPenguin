@@ -113,8 +113,8 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kjdn5"]
 _data = {
-"RESET": SubResource("Animation_7phfo"),
-"new_animation": SubResource("Animation_hyius")
+&"RESET": SubResource("Animation_7phfo"),
+&"new_animation": SubResource("Animation_hyius")
 }
 
 [sub_resource type="GDScript" id="GDScript_kj3o1"]
@@ -219,7 +219,7 @@ texture = ExtResource("4_2p8hi")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_kjdn5")
+&"": SubResource("AnimationLibrary_kjdn5")
 }
 autoplay = "new_animation"
 
